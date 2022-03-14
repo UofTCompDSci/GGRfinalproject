@@ -4,8 +4,6 @@
 
 ### Final project information
 
-Documents related to the final project.
-
 All the documents on this website can pulled into a live Jupyter session on the U of T Jupyterhub by following this [link](https://jupyter.utoronto.ca/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FUofTCompDSci%2FGGRfinalproject&urlpath=tree%2FGGRfinalproject%2Fprojectproposal.ipynb&branch=main) (U of T authentication required).  This link will launch the project proposal notebook. To find all the documents related to the final project project follow these steps.
 
 
