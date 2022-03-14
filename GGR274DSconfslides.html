@@ -1,0 +1,446 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
+
+    <title>Some Useful Information on creating Markdown Cells and a Slideshow &#8212; GGR274 Final Project Information</title>
+    
+  <link href="_static/css/theme.css" rel="stylesheet" />
+  <link href="_static/css/index.c5995385ac14fb8791e8eb36b4908be2.css" rel="stylesheet" />
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+
+    
+    <link rel="stylesheet" type="text/css" href="_static/pygments.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-book-theme.acff12b8f9c144ce68a297486a2fa670.css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.1c5a1a01449ed65a7b51.js">
+
+    <script data-url_root="./" id="documentation_options" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script>var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.12a9622fbb08dcb3a2a40b2c02b83a57.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script>
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="GGR274H1 Data Science Conference" href="GGR274posterpresentation.html" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+    
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+    <div class="container-fluid" id="banner"></div>
+
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+    <a class="navbar-brand text-wrap" href="index.html">
+      
+      
+      <h1 class="site-logo" id="site-title">GGR274 Final Project Information</h1>
+      
+    </a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form><nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <div class="bd-toc-item active">
+        <ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="intro.html">
+   University of Toronto GGR274 - Winter 2022
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Proposal
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="projectproposal.html">
+   Final Project Proposal
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Handout
+ </span>
+</p>
+<ul class="nav bd-sidenav">
+ <li class="toctree-l1">
+  <a class="reference internal" href="GGR274posterpresentation.html">
+   GGR274H1 Data Science Conference
+  </a>
+ </li>
+</ul>
+<p class="caption" role="heading">
+ <span class="caption-text">
+  Sample slides
+ </span>
+</p>
+<ul class="current nav bd-sidenav">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Some Useful Information on creating Markdown Cells and a Slideshow
+  </a>
+ </li>
+</ul>
+
+    </div>
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="topbar container-xl fixed-top">
+    <div class="topbar-contents row">
+        <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show"></div>
+        <div class="col pl-md-4 topbar-main">
+            
+            <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+                data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+                aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+                title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+                <i class="fas fa-bars"></i>
+                <i class="fas fa-arrow-left"></i>
+                <i class="fas fa-arrow-up"></i>
+            </button>
+            
+            
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/GGR274DSconfslides.ipynb"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.ipynb</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+            <!-- Source interaction buttons -->
+
+            <!-- Full screen (wrap in <a> to have style consistency -->
+
+<a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+        data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+        title="Fullscreen mode"><i
+            class="fas fa-expand"></i></button></a>
+
+            <!-- Launch buttons -->
+
+        </div>
+
+        <!-- Table of contents -->
+        <div class="d-none d-md-block col-md-2 bd-toc show">
+            
+            <div class="tocsection onthispage pt-5 pb-3">
+                <i class="fas fa-list"></i> Contents
+            </div>
+            <nav id="bd-toc-nav">
+                <ul class="visible nav section-nav flex-column">
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#">
+   Some Useful Information on creating Markdown Cells and a Slideshow
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#markdown-cells">
+     Markdown cells
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#rise">
+     RISE
+    </a>
+   </li>
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#hiding-code-while-displaying-output">
+     Hiding Code While Displaying Output
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#hiding-code-cell-example">
+   Hiding code cell example
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#title-of-your-group-project-the-title-should-reflect-the-question-that-you-are-answering">
+   Title of your group project (the title should reflect the question that you are answering)
+  </a>
+  <ul class="visible nav section-nav flex-column">
+   <li class="toc-h2 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#team-members-a-pandas-b-python-c-health-d-datasci">
+     Team members:  A. Pandas, B. Python, C. Health, D. Datasci
+    </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#tutorial-tutxxxx">
+       Tutorial: TUTXXXX
+      </a>
+     </li>
+     <li class="toc-h3 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#group-number-xx">
+       Group number: XX
+      </a>
+     </li>
+    </ul>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#introduction">
+   Introduction
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#methods">
+   Methods
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#results">
+   Results
+  </a>
+ </li>
+ <li class="toc-h1 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#conclusion">
+   Conclusion
+  </a>
+ </li>
+</ul>
+
+            </nav>
+        </div>
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <section id="some-useful-information-on-creating-markdown-cells-and-a-slideshow">
+<h1>Some Useful Information on creating Markdown Cells and a Slideshow<a class="headerlink" href="#some-useful-information-on-creating-markdown-cells-and-a-slideshow" title="Permalink to this headline">¶</a></h1>
+<p><mark> <strong>Don’t include this cell as part of your presentation</strong> </mark></p>
+<section id="markdown-cells">
+<h2>Markdown cells<a class="headerlink" href="#markdown-cells" title="Permalink to this headline">¶</a></h2>
+<p>More information about Markdown Cells in Jupyter notebooks can be found <a class="reference external" href="https://jupyter-notebook.readthedocs.io/en/stable/examples/Notebook/Working%20With%20Markdown%20Cells.html">here</a>.</p>
+</section>
+<section id="rise">
+<h2>RISE<a class="headerlink" href="#rise" title="Permalink to this headline">¶</a></h2>
+<p>More information about RISE can be found <a class="reference external" href="https://rise.readthedocs.io/en/stable/">here</a>.</p>
+<p>A few basics to create a <em>basic</em> slideshow:</p>
+<ul class="simple">
+<li><p>To change a Jupyter notebook cell’s Slide Type select Slideshow from the menu: View &gt; Cell Toolbar &gt; Slideshow</p></li>
+</ul>
+<p><img alt="" src="_images/rise1.png" /></p>
+<ul class="simple">
+<li><p>Choose Slide Type as Slide</p></li>
+</ul>
+<p><img alt="" src="_images/rise2.png" /></p>
+<ul class="simple">
+<li><p>Click on the RISE icon in the toolbar to run the slideshow.</p></li>
+</ul>
+<p><img alt="" src="_images/rise3.png" /></p>
+</section>
+<section id="hiding-code-while-displaying-output">
+<h2>Hiding Code While Displaying Output<a class="headerlink" href="#hiding-code-while-displaying-output" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>You will want to display python output, but not all the code that produced the output during your presentation.  Although, we ask that your slides be reproducible, so the code and output should be in one notebook.  One way to accomplish this is to use the notebook extension called <em>Hide input</em>.  Here are the steps to trun this extension on in your notebook:</p></li>
+<li><p>Click on the NBextensions tab in the Jupyterhub.  You can learn more about Jupyter Notebook Extensions <a class="reference external" href="https://jupyter-contrib-nbextensions.readthedocs.io/en/latest/">here</a>.</p></li>
+</ul>
+<p><img alt="" src="_images/hidecode1.png" /></p>
+<ul class="simple">
+<li><p>Then click the hide code button to hide the cell’s code, but display output.</p></li>
+</ul>
+<p><img alt="" src="_images/hidecode2.png" /></p>
+<ul class="simple">
+<li><p>This notebook already has this extension turned on.</p></li>
+</ul>
+</section>
+</section>
+<section id="hiding-code-cell-example">
+<h1>Hiding code cell example<a class="headerlink" href="#hiding-code-cell-example" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>The code cell below is hidden, but you should be able to see the bar plot.</p></li>
+<li><p>If you select the cell below then click on the hide code cell icon again the code will become visible.</p></li>
+</ul>
+<div class="cell docutils container">
+<div class="cell_input docutils container">
+<div class="highlight-ipython3 notranslate"><div class="highlight"><pre><span></span><span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
+<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+
+<span class="n">x</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">arange</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">5</span><span class="p">,</span> <span class="mi">1</span><span class="p">)</span>
+
+<span class="n">y</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([</span><span class="mi">2</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">4</span><span class="p">,</span> <span class="mi">1</span><span class="p">])</span> 
+
+
+<span class="n">plt</span><span class="o">.</span><span class="n">bar</span><span class="p">(</span><span class="n">x</span> <span class="o">=</span> <span class="n">x</span><span class="p">,</span> <span class="n">height</span> <span class="o">=</span> <span class="n">y</span><span class="p">);</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">xlabel</span><span class="p">(</span><span class="s1">&#39;x axis&#39;</span><span class="p">)</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">ylabel</span><span class="p">(</span><span class="s1">&#39;y axis&#39;</span><span class="p">);</span>
+<span class="n">plt</span><span class="o">.</span><span class="n">title</span><span class="p">(</span><span class="s1">&#39;Plot Title&#39;</span><span class="p">);</span>
+</pre></div>
+</div>
+</div>
+<div class="cell_output docutils container">
+<img alt="_images/GGR274DSconfslides_2_0.png" src="_images/GGR274DSconfslides_2_0.png" />
+</div>
+</div>
+</section>
+<section id="title-of-your-group-project-the-title-should-reflect-the-question-that-you-are-answering">
+<h1>Title of your group project (the title should reflect the question that you are answering)<a class="headerlink" href="#title-of-your-group-project-the-title-should-reflect-the-question-that-you-are-answering" title="Permalink to this headline">¶</a></h1>
+<section id="team-members-a-pandas-b-python-c-health-d-datasci">
+<h2>Team members:  A. Pandas, B. Python, C. Health, D. Datasci<a class="headerlink" href="#team-members-a-pandas-b-python-c-health-d-datasci" title="Permalink to this headline">¶</a></h2>
+<section id="tutorial-tutxxxx">
+<h3>Tutorial: TUTXXXX<a class="headerlink" href="#tutorial-tutxxxx" title="Permalink to this headline">¶</a></h3>
+</section>
+<section id="group-number-xx">
+<h3>Group number: XX<a class="headerlink" href="#group-number-xx" title="Permalink to this headline">¶</a></h3>
+</section>
+</section>
+</section>
+<section id="introduction">
+<h1>Introduction<a class="headerlink" href="#introduction" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>briefly states the topic you chose and how will you approach this topic</p></li>
+<li><p>provides background information needed to understand your poster</p></li>
+<li><p>briefly presents the statistical approach used and maybe even one or two key figure/tables to summarize the relevant data</p></li>
+</ul>
+</section>
+<section id="methods">
+<h1>Methods<a class="headerlink" href="#methods" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>mentions specific variables in dataset used or any data wrangling performed</p></li>
+<li><p>completely and accurately describes the methods used, in paragraph form with functions and symbols in bold</p></li>
+<li><p>provides enough information to allow someone to replicate your work but excludes needless detail</p></li>
+</ul>
+</section>
+<section id="results">
+<h1>Results<a class="headerlink" href="#results" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>presents the main findings</p></li>
+<li><p>includes figures, tables, graphs if they enhance clarity of presentation of information</p></li>
+<li><p>refers to the relevant self‐explanatory figures, tables, graphs in the text (e.g., See Figure 1)</p></li>
+<li><p>has captions above tables but below figures and graphs (so they are self-contained)</p></li>
+<li><p>does not interpret the data or draw conclusions</p></li>
+</ul>
+</section>
+<section id="conclusion">
+<h1>Conclusion<a class="headerlink" href="#conclusion" title="Permalink to this headline">¶</a></h1>
+<ul class="simple">
+<li><p>briefly restates the problem you are addressing and then states the main results (in complete sentences)</p></li>
+<li><p>interprets the results and summarizes how the results address the problem</p></li>
+<li><p>identifies any errors found</p></li>
+<li><p>discusses any challenges faced, and strengths and limitations of the project</p></li>
+<li><p>offers suggestions for improvement of the project (if any)</p></li>
+</ul>
+</section>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        
+        <div class='prev-next-bottom'>
+            
+    <a class='left-prev' id="prev-link" href="GGR274posterpresentation.html" title="previous page">GGR274H1 Data Science Conference</a>
+
+        </div>
+        
+        </div>
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By GGR274 Teaching Team<br/>
+        
+            &copy; Copyright 2021.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+  
+  <script src="_static/js/index.1c5a1a01449ed65a7b51.js"></script>
+
+  
+  </body>
+</html>
